@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body {
+    background-color: #f0f0f0;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+section {
+    padding: 40px 0;
+}
+
+header {
+    background-image: url(../../vendors/images/Pexels/decaying_window.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer {
+    height: 256px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;                
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    margin: 32px auto;                
+    background-color: #0910b5;
+    content: " ";
+    width: 25%;                
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
