@@ -52,3 +52,31 @@ h2:after {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.featured-works-section {
+    background-color: #fafafa;
+
+}
+
+.project-gallery {
+    list-style: none;  
+    width: 100%;
+    margin-top: 24px;
+}
+
+.project-gallery li {
+    width: 25%;
+    float: left;
+    display: block;                                
+}
+
+.project-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;    
+}
+
+.project-photo img {
+    width: 100%;
+    height: auto;
+}
